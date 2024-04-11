@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  color-scheme: light dark;
+.range-input {
+	@apply w-full bg-transparent cursor-pointer appearance-none disabled:opacity-50 disabled:pointer-events-none focus:outline-none;
+}
+
+.range-input::-webkit-slider-thumb {
+	@apply w-2.5 h-2.5 -mt-0.5 appearance-none bg-white shadow-[0_0_0_4px_rgba(37,99,235,1)] rounded-full transition-all duration-150 ease-in-out;
+}
+
+.range-input::-webkit-slider-runnable-track {
+	@apply w-full h-2 bg-gray-100 rounded-full;
+}
+
+.range-input::-moz-range-thumb {
+	@apply w-2.5 h-2.5 appearance-none bg-white border-4 border-blue-600 rounded-full transition-all duration-150 ease-in-out;
+}
+
+.range-input::-moz-range-track {
+	@apply w-full h-2 bg-gray-100 rounded-full;
 }
