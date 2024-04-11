@@ -1,14 +1,14 @@
 export default function Footer () {
   return (
-    <footer className="text-center opacity-75">
+    <footer className="w-full bg-black/90 text-white text-center text-sm border-t border-white/10 py-4">
       <p>
         This website didn't store any password generated.
       </p>
       <p>
-        You can check the source code on <a href="https://github.com/diegoeffar/password-generator" className="text-cyan-500">GitHub</a>.
+        You can check the source code on <a href="https://github.com/diegoeffar/password-generator" className="text-blue-500">GitHub</a>.
       </p>
       <p>
-        Made with <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4 inline-block text-red-500"><path d="m11.645 20.91-.007-.003-.022-.012a15.247 15.247 0 0 1-.383-.218 25.18 25.18 0 0 1-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0 1 12 5.052 5.5 5.5 0 0 1 16.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 0 1-4.244 3.17 15.247 15.247 0 0 1-.383.219l-.022.012-.007.004-.003.001a.752.752 0 0 1-.704 0l-.003-.001Z" /></svg> by <a href="https://github.com/diegoeffar" className="text-cyan-500">dieggoyz</a>.
+        made with luv by <a href="https://github.com/diegoeffar" className="text-blue-500">dieggoyz</a>
       </p>
     </footer>
   )
