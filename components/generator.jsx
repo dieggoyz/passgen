@@ -111,55 +111,47 @@ export default function Generator() {
 						/>
 					</div>
 					<div className="flex items-center justify-between">
-						<label htmlFor="uppercase" className="mr-3">
-							Uppercase letters
-						</label>
+						<label htmlFor="uppercase">Uppercase letters</label>
 						<input
 							type="checkbox"
 							name="uppercase"
 							id="uppercase"
 							checked={uppercase}
 							onChange={() => handleCheckboxChange("uppercase")}
-							className="mt-0.5 rounded border-neutral-400 text-zinc-600 focus:ring-zinc-500"
+							className="mt-0.5 rounded border-white/15 bg-white/5 text-zinc-600 focus:ring-current focus:ring-offset-zinc-900"
 						/>
 					</div>
 					<div className="flex items-center justify-between">
-						<label htmlFor="lowercase" className="mr-3">
-							Lowercase letters
-						</label>
+						<label htmlFor="lowercase">Lowercase letters</label>
 						<input
 							type="checkbox"
 							name="lowercase"
 							id="lowercase"
 							checked={lowercase}
 							onChange={() => handleCheckboxChange("lowercase")}
-							className="mt-0.5 rounded border-neutral-400 text-zinc-600 focus:ring-zinc-500"
+							className="mt-0.5 rounded border-white/15 bg-white/5 text-zinc-600 focus:ring-current focus:ring-offset-zinc-900"
 						/>
 					</div>
 					<div className="flex items-center justify-between">
-						<label htmlFor="numbers" className="mr-3">
-							Numbers
-						</label>
+						<label htmlFor="numbers">Numbers</label>
 						<input
 							type="checkbox"
 							name="numbers"
 							id="numbers"
 							checked={numbers}
 							onChange={() => handleCheckboxChange("numbers")}
-							className="mt-0.5 rounded border-neutral-400 text-zinc-600 focus:ring-zinc-500"
+							className="mt-0.5 rounded border-white/15 bg-white/5 text-zinc-600 focus:ring-current focus:ring-offset-zinc-900"
 						/>
 					</div>
 					<div className="flex items-center justify-between">
-						<label htmlFor="symbols" className="mr-3">
-							Symbols
-						</label>
+						<label htmlFor="symbols">Symbols</label>
 						<input
 							type="checkbox"
 							name="symbols"
 							id="symbols"
 							checked={symbols}
 							onChange={() => handleCheckboxChange("symbols")}
-							className="mt-0.5 rounded border-neutral-400 text-zinc-600 focus:ring-zinc-500"
+							className="mt-0.5 rounded border-white/15 bg-white/5 text-zinc-600 focus:ring-current focus:ring-offset-zinc-900"
 						/>
 					</div>
 					<button
