@@ -12,7 +12,7 @@ export default function Home () {
         <title>Password Generator — dieggoyz</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={`bg-white dark:bg-neutral-950 text-black dark:text-neutral-200 flex min-h-screen flex-col items-center justify-between gap-4 text-md ${inter.variable} font-sans`}>
+      <main className={`flex flex-col h-screen items-center justify-between gap-4 text-md ${inter.variable} font-sans`}>
         <Header />
         <Generator />
         <Footer />

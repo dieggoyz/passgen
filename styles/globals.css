@@ -3,21 +3,21 @@
 @tailwind utilities;
 
 .range-input {
-	@apply w-full bg-transparent cursor-pointer appearance-none disabled:opacity-50 disabled:pointer-events-none focus:outline-none;
+	@apply w-full cursor-pointer appearance-none bg-transparent focus:outline-none disabled:pointer-events-none disabled:opacity-50;
 }
 
 .range-input::-webkit-slider-thumb {
-	@apply w-2.5 h-2.5 -mt-0.5 appearance-none bg-white shadow-[0_0_0_4px_rgba(37,99,235,1)] rounded-full transition-all duration-150 ease-in-out;
+	@apply -mt-0.5 h-2.5 w-2.5 appearance-none rounded-full bg-white shadow-[0_0_0_4px_rgba(82,82,91,1)] transition-all duration-150 ease-in-out;
 }
 
 .range-input::-webkit-slider-runnable-track {
-	@apply w-full h-2 bg-gray-100 rounded-full;
+	@apply h-2 w-full rounded-full bg-white/5;
 }
 
 .range-input::-moz-range-thumb {
-	@apply w-2.5 h-2.5 appearance-none bg-white border-4 border-blue-600 rounded-full transition-all duration-150 ease-in-out;
+	@apply h-2.5 w-2.5 appearance-none rounded-full border-4 border-zinc-600 bg-white transition-all duration-150 ease-in-out;
 }
 
 .range-input::-moz-range-track {
-	@apply w-full h-2 bg-gray-100 rounded-full;
+	@apply h-2 w-full rounded-full bg-white/5;
 }
