@@ -81,7 +81,8 @@ export default function Generator() {
 						/>
 						<button
 							onClick={handleCopyClick}
-							className="ml-2 inline-flex h-full items-center justify-center gap-x-2 rounded-lg border border-white/5 bg-zinc-600 px-3 py-2 text-sm font-semibold text-white hover:bg-zinc-500 focus-visible:outline"
+							disabled={!password}
+							className="ml-2 inline-flex h-full items-center justify-center gap-x-2 rounded-lg border border-white/5 bg-zinc-600 px-3 py-2 text-sm font-semibold text-white hover:bg-zinc-500 focus-visible:outline disabled:bg-zinc-600 disabled:opacity-50 disabled:hover:bg-zinc-600"
 						>
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
