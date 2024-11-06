@@ -1,6 +1,6 @@
 import Head from "next/head"
 import { Inter } from "next/font/google"
-import { Header, Generator, Footer } from "@/components"
+import { Header, Generator, Signature } from "@/components"
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" })
 
@@ -20,7 +20,7 @@ export default function Home() {
 			>
 				<Header />
 				<Generator />
-				<Footer />
+				<Signature />
 			</main>
 		</>
 	)

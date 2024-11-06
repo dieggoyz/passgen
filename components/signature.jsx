@@ -18,12 +18,12 @@ export default function Signature() {
 				target="_blank"
 				style={{
 					color: "#8a93a0",
-					fontFamily: monospace,
+					fontFamily: "monospace",
 					fontSize: ".875rem",
 					lineHeight: "1.25rem",
 					margin: 0,
 					padding: 0,
-					textDecoration: none,
+					textDecoration: "none",
 					zIndex: 9999,
 				}}
 			>
