@@ -5,8 +5,11 @@ export default function Signature() {
 		<div
 			style={{
 				bottom: "1rem",
+				margin: "0",
+				padding: "0",
 				position: "fixed",
 				right: "1rem",
+				zIndex: "9999",
 			}}
 		>
 			<a
@@ -15,9 +18,13 @@ export default function Signature() {
 				target="_blank"
 				style={{
 					color: "#8a93a0",
-					fontFamily: "monospace",
+					fontFamily: monospace,
 					fontSize: ".875rem",
-					textDecoration: "none",
+					lineHeight: "1.25rem",
+					margin: 0,
+					padding: 0,
+					textDecoration: none,
+					zIndex: 9999,
 				}}
 			>
 				〆 dieggoyz
