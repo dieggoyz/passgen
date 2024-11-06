@@ -1,26 +1,22 @@
 export default function Footer() {
 	return (
-		<footer className="w-full py-4 text-center text-sm">
-			<p>This website didn't store any password generated.</p>
-			<p>
-				You can check the source code on{" "}
-				<a
-					href="https://github.com/diegoeffar/password-generator"
-					className="text-cyan-400"
-				>
-					GitHub
-				</a>
-				.
-			</p>
-			<p>
-				made with luv by{" "}
-				<a
-					href="https://github.com/diegoeffar"
-					className="font-semibold text-cyan-400"
-				>
-					dieggoyz
-				</a>
-			</p>
-		</footer>
+		<div
+			style={{
+				bottom: "1em",
+				fontFamily: "monospace",
+				fontSize: ".875em",
+				position: "fixed",
+				right: "1em",
+			}}
+		>
+			<a
+				href="https://github.com/dieggoyz"
+				rel="noopener noreferrer"
+				target="_blank"
+				style={{ color: "#8A93A0", textDecoration: "none" }}
+			>
+				〆 dieggoyz
+			</a>
+		</div>
 	)
 }
