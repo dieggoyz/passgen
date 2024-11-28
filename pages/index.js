@@ -1,27 +1,37 @@
-import Head from "next/head"
-import { Inter } from "next/font/google"
-import { Header, Generator, Signature } from "@/components"
+import Head from 'next/head';
+import localFont from 'next/font/local';
+import { Header, Generator, Signature } from '@/components';
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-sans" })
+const geistSans = localFont({
+  src: './fonts/GeistVF.woff',
+  variable: '--font-geist-sans',
+  weight: '100 900',
+});
+
+const geistMono = localFont({
+  src: './fonts/GeistMonoVF.woff',
+  variable: '--font-geist-mono',
+  weight: '100 900',
+});
 
 export default function Home() {
-	return (
-		<>
-			<Head>
-				<meta
-					name="description"
-					content="Generate secure passwords with a click of a button."
-				/>
-				<title>Password Generator — @dieggoyz</title>
-				<link rel="icon" type="image/png" href="/favicon.png" />
-			</Head>
-			<main
-				className={`text-md flex h-screen flex-col items-center justify-between gap-4 ${inter.variable} font-sans`}
-			>
-				<Header />
-				<Generator />
-				<Signature />
-			</main>
-		</>
-	)
+  return (
+    <>
+      <Head>
+        <meta
+          name='description'
+          content='Generate secure passwords with a click of a button.'
+        />
+        <title>Password Generator — @dieggoyz</title>
+        <link rel='icon' type='image/png' href='/favicon.png' />
+      </Head>
+      <main
+        className={`${geistSans.variable} ${geistMono.variable} text-md flex h-screen flex-col items-center justify-between gap-4 font-[family-name:var(--font-geist-sans)]`}
+      >
+        <Header />
+        <Generator />
+        <Signature />
+      </main>
+    </>
+  );
 }
