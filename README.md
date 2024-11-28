@@ -1,32 +1,48 @@
-# Password Generator
+<div align="center">
+  <img src="/public/icon.png" alt="passgen" height="100" />
+  <p>
+    secure your accounts with instantly generated passwords, tailored to your needs
+  </p>
+</div>
 
-## Description
-This is a simple open-source password generator tool. It allows users to generate a random password based on specified criteria, including length and character types (uppercase letters, lowercase letters, numbers, and special characters). After selecting the criteria, the tool generates and displays the password on the screen.
+passgen is a sleek and customizable password generator built to create secure passwords on the fly. with a user-friendly interface and essential features, it ensures your credentials remain strong and safe.
 
-## Features
-- Customizable password length.
-- Option to include uppercase letters, lowercase letters, numbers, and special characters.
-- Instant password generation and display.
-- Copy button to easily copy the generated password.
+### features
 
-## Technologies Used
-- Next.js
-- Tailwind CSS
+- generate passwords of customizable lengths.
+- include or exclude uppercase letters, lowercase letters, numbers, and special characters.
+- instant password display for quick use.
+- one-click copy functionality for seamless integration.
 
-## Getting Started
+### roadmap
 
-To get started, clone the repository to your local machine and run the following command to install the necessary dependencies:
+- allow saving frequently used configurations for faster access.
+
+### technologies used
+
+- **next.js**: powerful react framework for building the app.
+- **tailwind css**: utility-first css framework for a modern and responsive design.
+
+### getting started
+
+clone the repository and install dependencies using your preferred package manager:
 
 ```bash
 npm install
-
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+open [http://localhost:3000](http://localhost:3000) to start generating secure passwords.
+
+### contributing
+
+generally don't require contributions on my projects because they are for learning purposes, but feel free to suggest improvements or report bugs!
+
+### license
+
+this project is released under the [MIT license](LICENSE).  
+it's an experimental and non-commercial project meant for fun.
+
+### contact
+
+reach out to me for feedback or suggestions at [diegoeffar@gmail.com](mailto:diegoeffar@gmail.com).
