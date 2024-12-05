@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import localFont from 'next/font/local';
-import { Header, Generator, Signature } from '@/components';
+import Header from '@/components/header';
+import Generator from '@/components/generator';
 
 const geistSans = localFont({
   src: './fonts/GeistVF.woff',
@@ -26,11 +27,10 @@ export default function Home() {
         <link rel='icon' type='image/png' href='/favicon.png' />
       </Head>
       <main
-        className={`${geistSans.variable} ${geistMono.variable} text-md flex h-screen flex-col items-center justify-between gap-4 font-[family-name:var(--font-geist-sans)]`}
+        className={`${geistSans.variable} ${geistMono.variable} text-md flex h-screen w-screen flex-col items-center justify-between gap-4 font-[family-name:var(--font-geist-sans)]`}
       >
         <Header />
         <Generator />
-        <Signature />
       </main>
     </>
   );
